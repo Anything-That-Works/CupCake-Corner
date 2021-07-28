@@ -13,6 +13,9 @@
 		053DF20226B0E5AB00D92E0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053DF20126B0E5AB00D92E0D /* Preview Assets.xcassets */; };
 		053DF20D26B0E5AB00D92E0D /* CupCake_CornerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053DF20C26B0E5AB00D92E0D /* CupCake_CornerTests.swift */; };
 		053DF21826B0E5AB00D92E0D /* CupCake_CornerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053DF21726B0E5AB00D92E0D /* CupCake_CornerUITests.swift */; };
+		053DF22626B0E69D00D92E0D /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053DF22526B0E69D00D92E0D /* Orders.swift */; };
+		053DF22826B0E8EF00D92E0D /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053DF22726B0E8EF00D92E0D /* AddressView.swift */; };
+		053DF22A26B0EB3800D92E0D /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053DF22926B0EB3800D92E0D /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		053DF21326B0E5AB00D92E0D /* CupCake CornerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CupCake CornerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		053DF21726B0E5AB00D92E0D /* CupCake_CornerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupCake_CornerUITests.swift; sourceTree = "<group>"; };
 		053DF21926B0E5AB00D92E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053DF22526B0E69D00D92E0D /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		053DF22726B0E8EF00D92E0D /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		053DF22926B0EB3800D92E0D /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +101,11 @@
 		053DF1F926B0E5AA00D92E0D /* CupCake Corner */ = {
 			isa = PBXGroup;
 			children = (
+				053DF22926B0EB3800D92E0D /* CheckoutView.swift */,
+				053DF22726B0E8EF00D92E0D /* AddressView.swift */,
 				053DF1FA26B0E5AA00D92E0D /* CupCake_CornerApp.swift */,
 				053DF1FC26B0E5AA00D92E0D /* ContentView.swift */,
+				053DF22526B0E69D00D92E0D /* Orders.swift */,
 				053DF1FE26B0E5AB00D92E0D /* Assets.xcassets */,
 				053DF20326B0E5AB00D92E0D /* Info.plist */,
 				053DF20026B0E5AB00D92E0D /* Preview Content */,
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053DF22626B0E69D00D92E0D /* Orders.swift in Sources */,
+				053DF22826B0E8EF00D92E0D /* AddressView.swift in Sources */,
+				053DF22A26B0EB3800D92E0D /* CheckoutView.swift in Sources */,
 				053DF1FD26B0E5AA00D92E0D /* ContentView.swift in Sources */,
 				053DF1FB26B0E5AA00D92E0D /* CupCake_CornerApp.swift in Sources */,
 			);
